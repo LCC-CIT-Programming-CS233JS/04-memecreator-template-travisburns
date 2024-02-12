@@ -33,11 +33,22 @@
 
       <div class="form-group">
         <label for="bottomText">Bottom Text:</label>
-        <input type="text" id="bottomText" class="form-control">
+        <input type="text" id="bottomText" class="form-control" value="bottom text">
       </div>
 
-      <a class="btn btn-primary download-button" id="downloadMeme" download="meme.png">Download</a>
-
+      <a class="btn btn-primary download-button" id="downloadMeme" href="./images/img_the_scream.jpg" download="meme.png">Download</a>
+      <div class="form-group">
+        <label for="fontColor">Font Color:</label>
+        <input type="color" id="fontColor" class="form-control" value="#ffffff">
+    </div>
+    <div class="form-group">
+      <label for="fontFamily">Font Family:</label>
+      <select id="fontSelect" class="form-control">
+        <option value="sans-serif">Sans-serif</option>
+        <option value="serif">Serif</option>
+        <option value="monospace">Monospace</option>
+      </select>
+    </div>
     </div>
 
   </div>
